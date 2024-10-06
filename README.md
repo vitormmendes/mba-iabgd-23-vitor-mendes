@@ -1,8 +1,6 @@
-# TCC - Ambiente de Desenvolvimento
+Este documento descreve os passos necessários para configurar o ambiente de desenvolvimento do projeto TCC utilizando Python, Virtualenv (Seção 1) e como rodar o protótipo (Seção 2).
 
-Este documento descreve os passos necessários para configurar o ambiente de desenvolvimento do projeto TCC utilizando Python, Virtualenv e como rodar o protótipo.
-
-# Requisitos
+# 1. Requisitos
 
 - Python instalado na versão 3.12.3 ou mais recente ([Linux](https://python.org.br/instalacao-linux/), [Windows](https://python.org.br/instalacao-windows/) ou [macOS](https://python.org.br/instalacao-mac/)).
 - `pip` instalado para gerenciar pacotes Python.
@@ -18,7 +16,7 @@ Este documento descreve os passos necessários para configurar o ambiente de des
 
 ## Passos para configuração do ambiente
 
-### 1. Verificar a versão do Python
+### 1.1. Verificar a versão do Python
 
 Antes de iniciar, verifique se o Python está instalado corretamente.
 
@@ -26,14 +24,14 @@ Antes de iniciar, verifique se o Python está instalado corretamente.
 python --version
 ```
 
-### 2. Criar o ambiente virtual
+### 1.2. Criar o ambiente virtual
 Crie um ambiente virtual chamado tcc:
 
 ```bash
 virtualenv tcc
 ```
 
-### 3. Ativar o ambiente virtual
+### 1.3. Ativar o ambiente virtual
 - macOS/Linux:
 ```bash
 source tcc/bin/activate
@@ -43,16 +41,16 @@ source tcc/bin/activate
 tcc\Scripts\activate
 ```
 
-### 4. Instalar dependências
+### 1.4. Instalar dependências
 Com o ambiente virtual ativo, instale as dependências do projeto utilizando o arquivo requirements.txt:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# Rodando o protótipo
+# 2. Rodando o protótipo
 
-### 1. Geração de dados sintéticos
+### 2.1. Geração de dados sintéticos
 
 O projeto foi estruturado em tres pasta, a primeira chamada `dados_sinteticos`, onde dentro desta pasta possui script para geração de dados sintéticos, sendo necessario executar esta etapa apenas uma unica vez, caso você execute outras vezes, os arquivo novos estão sendo salvos na pasta `dados_sinteticos/sucesso_*modelo*`, onde *modelo* é justamente o modelo escolhido por ti. 
 
@@ -88,7 +86,7 @@ Arquivo JSON salvo: dados_sinteticos/sucesso_gpt-3.5-turbo/gpt-3.5-turbo_1727623
 
 Os logs de erro podem ser encontrado em `dados_sinteticos/erros_*modelo*`, onde *modelo* é justamente o modelo escolhido por ti.
 
-### 2. Pós processamento
+### 2.2. Pós processamento
 
 Esta etapa basicamente consiste em em usarmos os dagos gerado na etapa anterior e aplicar algumas validações e melhorias no mesmo se necessario. Exemplo:
 
@@ -99,7 +97,7 @@ Esta etapa basicamente consiste em em usarmos os dagos gerado na etapa anterior 
 Esta etapa não demora muito e após sua execução vai ser criado uma pasta chamada `pos_processamento/dados`, onde dnetro vai existir 3 arquivos:
 
 - `restaurantes_original.json`
-    - Arquivo com todos os restaurantes, logo se sua pasta de sucesso `dados_sinteticos/erros_*modelo*` contem 10 arquivos e cada um com 20 restaurantes, o arquivo original vai ficar com 200 restaurante, pois é feito o merge de todos os arquivos e salvo e um unico arquivo
+    - Arquivo com todos os restaurantes, logo se sua pasta de sucesso `dados_sinteticos/sucesso_*modelo*` contem 10 arquivos e cada um com 20 restaurantes, o arquivo original vai ficar com 200 restaurante, pois é feito o merge de todos os arquivos e salvo e um unico arquivo
 - `restaurantes_tratados.json` 
     - Arquivo com restaurantes tratados e filtrado porem com sua localizações originais sem re-distribuição geografica
 - `restaurantes_redistribuidos.json`
@@ -125,7 +123,7 @@ Dados tratados, redistribuídos e salvos na pasta 'pos_processamento/dados'.
 Gráficos salvos na pasta 'pos_processamento/graficos_comparacao'.
 ```
 
-### 3. Rodando protótipo
+### 2.3. Rodando protótipo
 
 ```bash
 tcc/bin/streamlit run aplicacao/app.py -- --diretorio "pos_processamento/dados/restaurantes"
