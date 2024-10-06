@@ -223,7 +223,7 @@ pip-selfcheck.json
 # Outros
 dados_sinteticos/sucesso_gpt-3.5-turbo
 dados_sinteticos/sucesso_gpt-4-turbo
-pos_processamento/data
+pos_processamento/dados
 pos_processamento/graficos
 
 # usado pelo virtualenv
