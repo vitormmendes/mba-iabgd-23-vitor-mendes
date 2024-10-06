@@ -6,6 +6,7 @@ import os
 import processar as p
 from geopy.distance import distance
 from dotenv import load_dotenv
+import argparse
 
 # Carregar as variáveis do arquivo .env
 load_dotenv()
@@ -61,7 +62,7 @@ def gerar_geojson(df, nome_arquivo):
 
 def gerar_geojsons_comparacao(df_original, df_tratado, df_redistribuido):
     
-    pasta_geojson = 'geojson_comparacao'
+    pasta_geojson = 'pos_processamento/geojson_comparacao'
     os.makedirs(pasta_geojson, exist_ok=True)
     
     df_original = p.calcular_distancia(df_original)
@@ -74,8 +75,14 @@ def gerar_geojsons_comparacao(df_original, df_tratado, df_redistribuido):
     
     gerar_geojson(df_redistribuido, os.path.join(pasta_geojson, 'restaurantes_redistribuidos.geojson'))
 
-diretorio = '/Users/vitor.moreira/Downloads/MBA - Conteudo/TCC/new/teste'  # Caminho correto
-df_tratado, df_redistribuido = p.tratar_dados_e_metricas(diretorio)
+
+parser = argparse.ArgumentParser(description='Tratar dados')
+parser.add_argument('--diretorio', type=str, help='Diretion aonde se encontra arquivo que vamos processar', required=True)
+
+args = parser.parse_args()
+
+diretorio = args.diretorio
+df_original, df_tratado_rebalanceado, df_tratado_redistribuido = p.tratar_dados_e_metricas(diretorio)
 
 # Gerar GeoJSONs
-gerar_geojsons_comparacao(df_original=p.carregar_arquivos_json(diretorio), df_tratado=df_tratado, df_redistribuido=df_redistribuido)
+gerar_geojsons_comparacao(df_original=p.carregar_arquivos_json(diretorio), df_tratado=df_tratado_rebalanceado, df_redistribuido=df_tratado_redistribuido)
