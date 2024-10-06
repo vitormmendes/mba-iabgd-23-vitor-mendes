@@ -1,0 +1,614 @@
+[
+    {
+        "identificador":"a12b354c-5d6e-7213-4f56-8a9b7c6d5e2f",
+        "nome":"Comida Brasileira Delícia",
+        "nota_media":3.8,
+        "avaliacoes":250,
+        "categoria":"Comida Brasileira",
+        "perfil_preco":"barato",
+        "latitude":-23.5643,
+        "longitude":-46.6612,
+        "taxa_1000_metros":1.0,
+        "taxa_2000_metros":2.5,
+        "taxa_3000_metros":5.0,
+        "taxa_4000_metros":8,
+        "pratos":[
+            {
+                "nome":"Feijoada Completa",
+                "preco":35.0
+            },
+            {
+                "nome":"Moqueca de Peixe",
+                "preco":40.0
+            },
+            {
+                "nome":"Bobó de Camarão",
+                "preco":45.0
+            }
+        ],
+        "distancia_centroid":3.2326273685
+    },
+    {
+        "identificador":"3b2a4c1d-6e5d-7132-4f56-8b9c7d6e5f2a",
+        "nome":"Pizzaria Bella Napoli",
+        "nota_media":4.1,
+        "avaliacoes":180,
+        "categoria":"Pizzaria",
+        "perfil_preco":"caro",
+        "latitude":-23.5671,
+        "longitude":-46.6529,
+        "taxa_1000_metros":2.0,
+        "taxa_2000_metros":4.5,
+        "taxa_3000_metros":6.0,
+        "taxa_4000_metros":9,
+        "pratos":[
+            {
+                "nome":"Pizza Margherita",
+                "preco":30.0
+            },
+            {
+                "nome":"Calzone",
+                "preco":25.0
+            },
+            {
+                "nome":"Pizza Quatro Queijos",
+                "preco":35.0
+            }
+        ],
+        "distancia_centroid":2.7174095678
+    },
+    {
+        "identificador":"6d7e5a1b-4c3e-1235-6f45-2a8b7d9c6e5f",
+        "nome":"Churrascaria Rei do Sul",
+        "nota_media":4.5,
+        "avaliacoes":300,
+        "categoria":"Churrascaria",
+        "perfil_preco":"muito caro",
+        "latitude":-23.5662,
+        "longitude":-46.6551,
+        "taxa_1000_metros":0.0,
+        "taxa_2000_metros":5.0,
+        "taxa_3000_metros":8.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Picanha Nobre",
+                "preco":80.0
+            },
+            {
+                "nome":"Costela Premium",
+                "preco":85.0
+            },
+            {
+                "nome":"Cupim Especial",
+                "preco":75.0
+            }
+        ],
+        "distancia_centroid":2.8243849953
+    },
+    {
+        "identificador":"5b2c4d1e-7f6d-3152-6a54-8c9b7e6d5f2c",
+        "nome":"Lancheburgueria Top Sabor",
+        "nota_media":4.2,
+        "avaliacoes":120,
+        "categoria":"Hamburgueria",
+        "perfil_preco":"caro",
+        "latitude":-23.57,
+        "longitude":-46.6578,
+        "taxa_1000_metros":3.0,
+        "taxa_2000_metros":5.0,
+        "taxa_3000_metros":7.0,
+        "taxa_4000_metros":9,
+        "pratos":[
+            {
+                "nome":"X-Bacon",
+                "preco":20.0
+            },
+            {
+                "nome":"X-Salada",
+                "preco":18.0
+            },
+            {
+                "nome":"X-Frango",
+                "preco":16.0
+            },
+            {
+                "nome":"X-Egg",
+                "preco":17.0
+            }
+        ],
+        "distancia_centroid":3.304651874
+    },
+    {
+        "identificador":"7e5c3a2b-5d7f-2413-5f64-9c8b6d7e5f3a",
+        "nome":"Sushimakai Express",
+        "nota_media":3.5,
+        "avaliacoes":90,
+        "categoria":"Japonês\/Sushi",
+        "perfil_preco":"barato",
+        "latitude":-23.5695,
+        "longitude":-46.6593,
+        "taxa_1000_metros":2.0,
+        "taxa_2000_metros":3.5,
+        "taxa_3000_metros":6.0,
+        "taxa_4000_metros":8,
+        "pratos":[
+            {
+                "nome":"Sushi Combo 20 peças",
+                "preco":35.0
+            },
+            {
+                "nome":"Hot Roll",
+                "preco":25.0
+            },
+            {
+                "nome":"Temaki de Atum",
+                "preco":20.0
+            }
+        ],
+        "distancia_centroid":3.387358077
+    },
+    {
+        "identificador":"4d7f4b2c-7e5d-1325-6f45-8a2b9c6e5f3b",
+        "nome":"Mexicasa Sabores",
+        "nota_media":4.0,
+        "avaliacoes":200,
+        "categoria":"Mexicano",
+        "perfil_preco":"caro",
+        "latitude":-23.5684,
+        "longitude":-46.6617,
+        "taxa_1000_metros":2.0,
+        "taxa_2000_metros":4.0,
+        "taxa_3000_metros":6.0,
+        "taxa_4000_metros":9,
+        "pratos":[
+            {
+                "nome":"Tacos de Carne",
+                "preco":25.0
+            },
+            {
+                "nome":"Guacamole",
+                "preco":15.0
+            },
+            {
+                "nome":"Enchiladas",
+                "preco":20.0
+            }
+        ],
+        "distancia_centroid":3.5124433604
+    },
+    {
+        "identificador":"8a9b6c7d-5e4f-3215-6a45-9c2b8d7e5f4c",
+        "nome":"Trattoria Bella Italia",
+        "nota_media":4.6,
+        "avaliacoes":400,
+        "categoria":"Italiana",
+        "perfil_preco":"muito caro",
+        "latitude":-23.5697,
+        "longitude":-46.6571,
+        "taxa_1000_metros":0.0,
+        "taxa_2000_metros":4.5,
+        "taxa_3000_metros":7.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Risoto de Frutos do Mar",
+                "preco":50.0
+            },
+            {
+                "nome":"Pasta Carbonara",
+                "preco":40.0
+            },
+            {
+                "nome":"Pizza Margherita",
+                "preco":30.0
+            }
+        ],
+        "distancia_centroid":3.2289189433
+    },
+    {
+        "identificador":"3f4e5b2c-7d5e-1325-4f65-8a9b6c7d5e2f",
+        "nome":"Barca de Frutos do Mar",
+        "nota_media":3.7,
+        "avaliacoes":150,
+        "categoria":"Frutos do Mar",
+        "perfil_preco":"caro",
+        "latitude":-23.5722,
+        "longitude":-46.6548,
+        "taxa_1000_metros":1.5,
+        "taxa_2000_metros":3.0,
+        "taxa_3000_metros":5.0,
+        "taxa_4000_metros":8,
+        "pratos":[
+            {
+                "nome":"Paella",
+                "preco":60.0
+            },
+            {
+                "nome":"Lula Grelhada",
+                "preco":35.0
+            },
+            {
+                "nome":"Camarão à Provençal",
+                "preco":45.0
+            }
+        ],
+        "distancia_centroid":3.2548455731
+    },
+    {
+        "identificador":"2b3c4d5e-6f7a-1243-5f65-9c8b7a6d2f4e",
+        "nome":"Lanches Top Nordeste",
+        "nota_media":3.9,
+        "avaliacoes":180,
+        "categoria":"Comida Nordestina",
+        "perfil_preco":"barato",
+        "latitude":-23.5731,
+        "longitude":-46.6579,
+        "taxa_1000_metros":1.0,
+        "taxa_2000_metros":2.5,
+        "taxa_3000_metros":5.0,
+        "taxa_4000_metros":8,
+        "pratos":[
+            {
+                "nome":"Cuscuz com Carne de Sol",
+                "preco":18.0
+            },
+            {
+                "nome":"Acém com Aipim",
+                "preco":20.0
+            },
+            {
+                "nome":"Caldo de Sururu",
+                "preco":15.0
+            }
+        ],
+        "distancia_centroid":3.5457849237
+    },
+    {
+        "identificador":"1a2b3c4d-5e6f-7213-4f56-9c8b7d6e5f2d",
+        "nome":"Sorvetes Veneza",
+        "nota_media":4.8,
+        "avaliacoes":350,
+        "categoria":"Sorveteria",
+        "perfil_preco":"barato",
+        "latitude":-23.5714,
+        "longitude":-46.6555,
+        "taxa_1000_metros":1.0,
+        "taxa_2000_metros":2.0,
+        "taxa_3000_metros":4.0,
+        "taxa_4000_metros":7,
+        "pratos":[
+            {
+                "nome":"Sundae de Chocolate",
+                "preco":10.0
+            },
+            {
+                "nome":"Casquinha de Morango",
+                "preco":5.0
+            },
+            {
+                "nome":"Milkshake de Baunilha",
+                "preco":8.0
+            }
+        ],
+        "distancia_centroid":3.2395784624
+    },
+    {
+        "identificador":"e3cce8e7-af68-43f5-afaa-99a09e956a3b",
+        "nome":"Pizzaria Bella Napoli",
+        "nota_media":4.2,
+        "avaliacoes":300,
+        "categoria":"Pizzaria",
+        "perfil_preco":"caro",
+        "latitude":-23.5552,
+        "longitude":-46.6604,
+        "taxa_1000_metros":2.0,
+        "taxa_2000_metros":5.0,
+        "taxa_3000_metros":7.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Pizza Margherita",
+                "preco":35.0
+            },
+            {
+                "nome":"Calzone",
+                "preco":40.0
+            },
+            {
+                "nome":"Pizza Pepperoni",
+                "preco":40.0
+            }
+        ],
+        "distancia_centroid":2.8154545823
+    },
+    {
+        "identificador":"fc196c0b-bd33-4128-b9d6-276b680d0ab7",
+        "nome":"Toca do Hambúrguer",
+        "nota_media":4.8,
+        "avaliacoes":450,
+        "categoria":"Hamburgueria",
+        "perfil_preco":"muito caro",
+        "latitude":-23.5639,
+        "longitude":-46.6521,
+        "taxa_1000_metros":0.0,
+        "taxa_2000_metros":5.0,
+        "taxa_3000_metros":8.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"X-Bacon",
+                "preco":30.0
+            },
+            {
+                "nome":"X-Salada",
+                "preco":28.0
+            },
+            {
+                "nome":"X-Tudo",
+                "preco":35.0
+            },
+            {
+                "nome":"Onion Rings",
+                "preco":20.0
+            }
+        ],
+        "distancia_centroid":2.4262436383
+    },
+    {
+        "identificador":"38f2292e-4bb0-4dfb-a647-0e9014e822a8",
+        "nome":"Mar e Sabor",
+        "nota_media":4.5,
+        "avaliacoes":200,
+        "categoria":"Frutos do Mar",
+        "perfil_preco":"caro",
+        "latitude":-23.5501,
+        "longitude":-46.6364,
+        "taxa_1000_metros":3.0,
+        "taxa_2000_metros":5.0,
+        "taxa_3000_metros":8.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Paella Valenciana",
+                "preco":60.0
+            },
+            {
+                "nome":"Moqueca de Camarão",
+                "preco":50.0
+            },
+            {
+                "nome":"Lagosta Grelhada",
+                "preco":80.0
+            }
+        ],
+        "distancia_centroid":0.3196020983
+    },
+    {
+        "identificador":"5b8a2483-a453-40c0-a5e9-8251a8cc7933",
+        "nome":"Comidaria Nordestina",
+        "nota_media":4.0,
+        "avaliacoes":150,
+        "categoria":"Comida Nordestina",
+        "perfil_preco":"barato",
+        "latitude":-23.5448,
+        "longitude":-46.6494,
+        "taxa_1000_metros":0.0,
+        "taxa_2000_metros":4.0,
+        "taxa_3000_metros":6.5,
+        "taxa_4000_metros":8,
+        "pratos":[
+            {
+                "nome":"Baião de Dois",
+                "preco":25.0
+            },
+            {
+                "nome":"Coxinha de Caranguejo",
+                "preco":20.0
+            },
+            {
+                "nome":"Carne de Sol com Mandioca",
+                "preco":30.0
+            },
+            {
+                "nome":"Arroz de Hauçá",
+                "preco":25.0
+            }
+        ],
+        "distancia_centroid":1.7609253443
+    },
+    {
+        "identificador":"cce68b3b-bc7b-4d9e-8d76-3e578b00742c",
+        "nome":"Taco Loco",
+        "nota_media":4.3,
+        "avaliacoes":250,
+        "categoria":"Mexicano",
+        "perfil_preco":"caro",
+        "latitude":-23.548,
+        "longitude":-46.6547,
+        "taxa_1000_metros":2.5,
+        "taxa_2000_metros":6.0,
+        "taxa_3000_metros":8.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Taco Al Pastor",
+                "preco":20.0
+            },
+            {
+                "nome":"Enchiladas",
+                "preco":25.0
+            },
+            {
+                "nome":"Guacamole",
+                "preco":15.0
+            },
+            {
+                "nome":"Chili com Carne",
+                "preco":30.0
+            }
+        ],
+        "distancia_centroid":2.2024779225
+    },
+    {
+        "identificador":"e68d8136-2061-4ec7-a60a-801b31b486ac",
+        "nome":"Sabor Mineiro",
+        "nota_media":4.6,
+        "avaliacoes":400,
+        "categoria":"Comida Mineira",
+        "perfil_preco":"caro",
+        "latitude":-23.5673,
+        "longitude":-46.6582,
+        "taxa_1000_metros":3.0,
+        "taxa_2000_metros":6.0,
+        "taxa_3000_metros":8.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Feijão Tropeiro",
+                "preco":35.0
+            },
+            {
+                "nome":"Frango com Quiabo",
+                "preco":30.0
+            },
+            {
+                "nome":"Curau",
+                "preco":10.0
+            },
+            {
+                "nome":"Pão de Queijo",
+                "preco":15.0
+            }
+        ],
+        "distancia_centroid":3.1503380576
+    },
+    {
+        "identificador":"ce4af43a-7c6a-4241-9c82-1bd80af2e902",
+        "nome":"Delícia Peruana",
+        "nota_media":4.4,
+        "avaliacoes":180,
+        "categoria":"Comida Peruana",
+        "perfil_preco":"caro",
+        "latitude":-23.5592,
+        "longitude":-46.6489,
+        "taxa_1000_metros":2.0,
+        "taxa_2000_metros":5.0,
+        "taxa_3000_metros":7.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Ceviche",
+                "preco":25.0
+            },
+            {
+                "nome":"Lomo Saltado",
+                "preco":40.0
+            },
+            {
+                "nome":"Aji de Gallina",
+                "preco":30.0
+            }
+        ],
+        "distancia_centroid":1.8615132528
+    },
+    {
+        "identificador":"e56e4826-8036-4e13-b9f8-70ec10345945",
+        "nome":"Sorvete Master",
+        "nota_media":4.9,
+        "avaliacoes":480,
+        "categoria":"Sorveteria",
+        "perfil_preco":"muito caro",
+        "latitude":-23.5736,
+        "longitude":-46.6244,
+        "taxa_1000_metros":0.0,
+        "taxa_2000_metros":5.0,
+        "taxa_3000_metros":8.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"Casquinha Simples",
+                "preco":5.0
+            },
+            {
+                "nome":"Sundae",
+                "preco":15.0
+            },
+            {
+                "nome":"Milkshake",
+                "preco":20.0
+            },
+            {
+                "nome":"Sorvete de Frutas Vermelhas",
+                "preco":10.0
+            }
+        ],
+        "distancia_centroid":2.7149332633
+    },
+    {
+        "identificador":"1b383793-5608-4e10-82ad-7e7ce5eb6d63",
+        "nome":"Açai Tropical",
+        "nota_media":3.8,
+        "avaliacoes":100,
+        "categoria":"Açaí",
+        "perfil_preco":"barato",
+        "latitude":-23.5665,
+        "longitude":-46.6341,
+        "taxa_1000_metros":1.0,
+        "taxa_2000_metros":4.0,
+        "taxa_3000_metros":6.0,
+        "taxa_4000_metros":9,
+        "pratos":[
+            {
+                "nome":"Açaí na Tigela",
+                "preco":15.0
+            },
+            {
+                "nome":"Açaí com Granola",
+                "preco":12.0
+            },
+            {
+                "nome":"Açaí com Banana",
+                "preco":13.0
+            },
+            {
+                "nome":"Açaí com Morango",
+                "preco":14.0
+            }
+        ],
+        "distancia_centroid":1.7739115377
+    },
+    {
+        "identificador":"4fd3d551-43ef-4a5c-9bda-883b9b953112",
+        "nome":"Lanche da Esquina",
+        "nota_media":4.0,
+        "avaliacoes":120,
+        "categoria":"Lanchonete",
+        "perfil_preco":"barato",
+        "latitude":-23.5698,
+        "longitude":-46.6398,
+        "taxa_1000_metros":0.0,
+        "taxa_2000_metros":3.5,
+        "taxa_3000_metros":7.0,
+        "taxa_4000_metros":10,
+        "pratos":[
+            {
+                "nome":"X-Burger",
+                "preco":15.0
+            },
+            {
+                "nome":"Cachorro Quente",
+                "preco":10.0
+            },
+            {
+                "nome":"Misto Quente",
+                "preco":8.0
+            },
+            {
+                "nome":"Pastel de Queijo",
+                "preco":5.0
+            }
+        ],
+        "distancia_centroid":2.2381559294
+    }
+]
