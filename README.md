@@ -103,7 +103,7 @@ Esta etapa não demora muito e após sua execução vai ser criado uma pasta cha
 - `restaurantes_tratados.json` 
     - Arquivo com restaurantes tratados e filtrado porem com sua localizações originais sem re-distribuição geografica
 - `restaurantes_redistribuidos.json`
-    - Arquivo com restaurantes com suas localizações originais re-distribuidos geograficamente, deixando de maneira mais homogenia aonde se encontra os mesmo
+    - Arquivo com restaurantes com suas localizações originais re-distribuidos geograficamente, deixando de maneira mais homogenia aonde se encontra os mesmo. Este arquivo é o que vai ser usado na próxima etapa
 
 Exemplo de log de sucesso após execução:
 
@@ -118,7 +118,9 @@ Remoção de valores nulos/inválidos: 0 registros removidos (0.00%)
 Remoção de duplicados: 2 registros removidos (10.00%)
 Rebalanceamento de classes: 9 registros ajustados (50.00%)
 Distância média do centro de São Paulo antes da redistribuição: 2.53 km
-Distância média do centro de São Paulo após a redistribuição: 3.40 km
-Ajuste na distribuição geográfica: diferença média de -0.87 km, que representa um ajuste de 34.30%
-Dados tratados, redistribuídos e gráficos salvos na pasta 'graficos_comparacao'.
+Distância média do centro de São Paulo após a redistribuição: 3.53 km
+Ajuste na distribuição geográfica: diferença média de -1.00 km, que representa um ajuste de 39.40%
+
+Dados tratados, redistribuídos e salvos na pasta 'pos_processamento/dados'.
+Gráficos salvos na pasta 'pos_processamento/graficos_comparacao'.
 ```

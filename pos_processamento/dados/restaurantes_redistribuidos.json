@@ -6,7 +6,7 @@
         "taxa_2000_metros":5.0,
         "taxa_3000_metros":7.0,
         "taxa_4000_metros":9,
-        "distancia_centroid":4.639800033,
+        "distancia_centroid":1.0663115832,
         "categoria":"Hamburgueria",
         "identificador":"a12b354c-5d6e-7213-4f56-8a9b7c6d5e2f",
         "nome":"Comida Brasileira Delícia",
@@ -24,8 +24,8 @@
                 "preco":45.0
             }
         ],
-        "latitude":-23.5191370404,
-        "longitude":-46.6634244025,
+        "latitude":-23.5516970095,
+        "longitude":-46.643662603,
         "perfil_preco":"barato"
     },
     {
@@ -35,7 +35,7 @@
         "taxa_2000_metros":3.0,
         "taxa_3000_metros":5.0,
         "taxa_4000_metros":8,
-        "distancia_centroid":1.9243447351,
+        "distancia_centroid":3.0623500773,
         "categoria":"Frutos do Mar",
         "identificador":"6d7e5a1b-4c3e-1235-6f45-2a8b7d9c6e5f",
         "nome":"Churrascaria Rei do Sul",
@@ -53,8 +53,8 @@
                 "preco":75.0
             }
         ],
-        "latitude":-23.5331644916,
-        "longitude":-46.632025051,
+        "latitude":-23.5297697346,
+        "longitude":-46.6134535764,
         "perfil_preco":"muito caro"
     },
     {
@@ -64,7 +64,7 @@
         "taxa_2000_metros":2.5,
         "taxa_3000_metros":5.0,
         "taxa_4000_metros":8,
-        "distancia_centroid":2.9942548532,
+        "distancia_centroid":4.3768811216,
         "categoria":"Comida Nordestina",
         "identificador":"5b2c4d1e-7f6d-3152-6a54-8c9b7e6d5f2c",
         "nome":"Lancheburgueria Top Sabor",
@@ -86,8 +86,8 @@
                 "preco":17.0
             }
         ],
-        "latitude":-23.5356764888,
-        "longitude":-46.6087763621,
+        "latitude":-23.554664712,
+        "longitude":-46.5906703272,
         "perfil_preco":"caro"
     },
     {
@@ -97,7 +97,7 @@
         "taxa_2000_metros":2.0,
         "taxa_3000_metros":4.0,
         "taxa_4000_metros":7,
-        "distancia_centroid":3.6158660193,
+        "distancia_centroid":2.4758256932,
         "categoria":"Sorveteria",
         "identificador":"7e5c3a2b-5d7f-2413-5f64-9c8b6d7e5f3a",
         "nome":"Sushimakai Express",
@@ -115,8 +115,8 @@
                 "preco":20.0
             }
         ],
-        "latitude":-23.5660879881,
-        "longitude":-46.6021811582,
+        "latitude":-23.5619667532,
+        "longitude":-46.612483644,
         "perfil_preco":"barato"
     },
     {
@@ -126,7 +126,7 @@
         "taxa_2000_metros":5.0,
         "taxa_3000_metros":8.0,
         "taxa_4000_metros":10,
-        "distancia_centroid":0.4850615091,
+        "distancia_centroid":4.5166844133,
         "categoria":"Hamburgueria",
         "identificador":"4d7f4b2c-7e5d-1325-6f45-8a2b9c6e5f3b",
         "nome":"Mexicasa Sabores",
@@ -144,8 +144,8 @@
                 "preco":20.0
             }
         ],
-        "latitude":-23.5461289506,
-        "longitude":-46.6335987663,
+        "latitude":-23.5769811542,
+        "longitude":-46.5996543039,
         "perfil_preco":"caro"
     },
     {
@@ -155,7 +155,7 @@
         "taxa_2000_metros":5.0,
         "taxa_3000_metros":8.0,
         "taxa_4000_metros":10,
-        "distancia_centroid":3.6329903725,
+        "distancia_centroid":4.9155915515,
         "categoria":"Frutos do Mar",
         "identificador":"8a9b6c7d-5e4f-3215-6a45-9c2b8d7e5f4c",
         "nome":"Trattoria Bella Italia",
@@ -173,8 +173,8 @@
                 "preco":30.0
             }
         ],
-        "latitude":-23.5185814913,
-        "longitude":-46.6415063589,
+        "latitude":-23.5846459201,
+        "longitude":-46.6025394268,
         "perfil_preco":"muito caro"
     },
     {
@@ -184,7 +184,7 @@
         "taxa_2000_metros":4.0,
         "taxa_3000_metros":6.5,
         "taxa_4000_metros":8,
-        "distancia_centroid":3.0153699065,
+        "distancia_centroid":4.770980941,
         "categoria":"Comida Nordestina",
         "identificador":"3f4e5b2c-7d5e-1325-4f65-8a9b6c7d5e2f",
         "nome":"Barca de Frutos do Mar",
@@ -202,8 +202,8 @@
                 "preco":45.0
             }
         ],
-        "latitude":-23.5456885897,
-        "longitude":-46.6042324386,
+        "latitude":-23.5373864731,
+        "longitude":-46.6778076832,
         "perfil_preco":"caro"
     },
     {
@@ -213,7 +213,7 @@
         "taxa_2000_metros":6.0,
         "taxa_3000_metros":8.0,
         "taxa_4000_metros":10,
-        "distancia_centroid":2.6821766654,
+        "distancia_centroid":3.8211724025,
         "categoria":"Mexicano",
         "identificador":"2b3c4d5e-6f7a-1243-5f65-9c8b7a6d2f4e",
         "nome":"Lanches Top Nordeste",
@@ -231,8 +231,8 @@
                 "preco":15.0
             }
         ],
-        "latitude":-23.5575619351,
-        "longitude":-46.6081714315,
+        "latitude":-23.54478068,
+        "longitude":-46.6702064474,
         "perfil_preco":"barato"
     },
     {
@@ -242,7 +242,7 @@
         "taxa_2000_metros":5.0,
         "taxa_3000_metros":8.0,
         "taxa_4000_metros":10,
-        "distancia_centroid":4.594498964,
+        "distancia_centroid":2.7349349785,
         "categoria":"Sorveteria",
         "identificador":"1a2b3c4d-5e6f-7213-4f56-9c8b7d6e5f2d",
         "nome":"Sorvetes Veneza",
@@ -260,8 +260,8 @@
                 "preco":8.0
             }
         ],
-        "latitude":-23.5485605311,
-        "longitude":-46.6782495432,
+        "latitude":-23.5616146258,
+        "longitude":-46.6572207137,
         "perfil_preco":"barato"
     }
 ]

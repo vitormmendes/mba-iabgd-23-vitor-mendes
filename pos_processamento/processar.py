@@ -249,7 +249,8 @@ def main():
 
     gerar_graficos_comparacao(df_original, df_tratado_rebalanceado, df_tratado_redistribuido)
 
-    print("Dados tratados, redistribuídos e gráficos salvos na pasta 'graficos_comparacao'.")
+    print("\nDados tratados, redistribuídos e salvos na pasta 'pos_processamento/dados'.")
+    print("Gráficos salvos na pasta 'pos_processamento/graficos_comparacao'.")
 
 if __name__ == "__main__":
     main()
