@@ -127,6 +127,9 @@ Gráficos salvos na pasta 'pos_processamento/graficos_comparacao'.
 
 ### 3. Rodando protótipo
 
-bash
-```tcc/bin/streamlit run aplicacao/app.py -- --diretorio "pos_processamento/dados/restaurantes"
+```bash
+tcc/bin/streamlit run aplicacao/app.py -- --diretorio "pos_processamento/dados/restaurantes"
 ```
+
+
+![Alt Text](aplicacao/prototipo-final.png)
