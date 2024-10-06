@@ -77,7 +77,7 @@ def gerar_geojsons_comparacao(df_original, df_tratado, df_redistribuido):
 
 
 parser = argparse.ArgumentParser(description='Tratar dados')
-parser.add_argument('--diretorio', type=str, help='Diretion aonde se encontra arquivo que vamos processar', required=True)
+parser.add_argument('--diretorio', type=str, help='Diretorio aonde se encontra arquivo que vamos processar', required=True)
 
 args = parser.parse_args()
 

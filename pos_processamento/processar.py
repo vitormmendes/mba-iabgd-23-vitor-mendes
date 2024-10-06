@@ -175,9 +175,13 @@ def tratar_dados_e_metricas(diretorio):
     if not os.path.exists("pos_processamento/dados"):
         os.makedirs("pos_processamento/dados")
 
+    if not os.path.exists("pos_processamento/dados/restaurantes"):
+        os.makedirs("pos_processamento/dados/restaurantes")
+
     df_original.to_json('pos_processamento/dados/restaurantes_original.json', orient='records', force_ascii=False, indent=4)
     df_tratado_rebalanceado.to_json('pos_processamento/dados/restaurantes_tratados.json', orient='records', force_ascii=False, indent=4)
     df_tratado_redistribuido.to_json('pos_processamento/dados/restaurantes_redistribuidos.json', orient='records', force_ascii=False, indent=4)
+    df_tratado_redistribuido.to_json('pos_processamento/dados/restaurantes/banco.json', orient='records', force_ascii=False, indent=4)
 
     # Calcular e exibir métricas
     calcular_metricas(df_original, df_tratado_nulos, df_tratado_duplicados, df_tratado_rebalanceado, df_tratado_redistribuido)
@@ -239,7 +243,7 @@ def gerar_graficos_comparacao(df_original, df_tratado, df_redistribuido):
 
 def main():
     parser = argparse.ArgumentParser(description='Tratar dados')
-    parser.add_argument('--diretorio', type=str, help='Diretion aonde se encontra arquivo que vamos processar', required=True)
+    parser.add_argument('--diretorio', type=str, help='Diretorio aonde se encontra arquivo que vamos processar', required=True)
 
     args = parser.parse_args()
 

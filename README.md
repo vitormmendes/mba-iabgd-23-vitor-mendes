@@ -88,7 +88,7 @@ Arquivo JSON salvo: dados_sinteticos/sucesso_gpt-3.5-turbo/gpt-3.5-turbo_1727623
 
 Os logs de erro podem ser encontrado em `dados_sinteticos/erros_*modelo*`, onde *modelo* é justamente o modelo escolhido por ti.
 
-### Pós processamento
+### 2. Pós processamento
 
 Esta etapa basicamente consiste em em usarmos os dagos gerado na etapa anterior e aplicar algumas validações e melhorias no mesmo se necessario. Exemplo:
 
@@ -123,4 +123,10 @@ Ajuste na distribuição geográfica: diferença média de -1.00 km, que represe
 
 Dados tratados, redistribuídos e salvos na pasta 'pos_processamento/dados'.
 Gráficos salvos na pasta 'pos_processamento/graficos_comparacao'.
+```
+
+### 3. Rodando protótipo
+
+bash
+```tcc/bin/streamlit run aplicacao/app.py -- --diretorio "pos_processamento/dados/restaurantes"
 ```
