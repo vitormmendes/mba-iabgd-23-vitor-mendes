@@ -122,6 +122,25 @@ examples = [
     }
 ]
 
+# Função para criar o template do prompt FewShot
+def criar_prompt_template():
+    OPENAI_TEMPLATE = PromptTemplate(input_variables=["example"], template="{example}")
+    return FewShotPromptTemplate(
+        prefix=SYNTHETIC_FEW_SHOT_PREFIX,
+        examples=examples,
+        suffix=SYNTHETIC_FEW_SHOT_SUFFIX,
+        input_variables=["subject", "extra"],
+        example_prompt=OPENAI_TEMPLATE,
+    )
+
+# Função para criar o gerador de dados usando o modelo da OpenAI
+def criar_data_generator(prompt_template, modelo):
+    return create_openai_data_generator(
+        output_schema=Restaurantes,
+        llm=ChatOpenAI(model=modelo, temperature=1),
+        prompt=prompt_template
+    )
+
 # Função para gerar dados de restaurantes sintéticos
 def gerar_restaurantes(quantidade, modelo):
     try:
@@ -174,23 +193,6 @@ def gerar_restaurantes(quantidade, modelo):
 
         # Retorna uma lista vazia em caso de falha para não interronper o processamento
         return []
-
-def criar_prompt_template():
-    OPENAI_TEMPLATE = PromptTemplate(input_variables=["example"], template="{example}")
-    return FewShotPromptTemplate(
-        prefix=SYNTHETIC_FEW_SHOT_PREFIX,
-        examples=examples,
-        suffix=SYNTHETIC_FEW_SHOT_SUFFIX,
-        input_variables=["subject", "extra"],
-        example_prompt=OPENAI_TEMPLATE,
-    )
-
-def criar_data_generator(prompt_template, modelo):
-    return create_openai_data_generator(
-        output_schema=Restaurantes,
-        llm=ChatOpenAI(model=modelo, temperature=1),
-        prompt=prompt_template
-    )
 
 def gerar(total_restaurantes, modelo):
     resultado = []
