@@ -16,3 +16,4 @@ nltk==3.9.1
 pypdf==4.3.1
 streamlit-chat==0.1.1
 python-dotenv==1.0.1
+psutil==6.0.0
